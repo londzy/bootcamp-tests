@@ -12,11 +12,11 @@
 describe('isWeekday', function(){
 
 
-    it('find out if the parameter passed in is a day of the week (ie. Not a weekend day). .', function(){
+    it('should return false for sunday is not a weekday. .', function(){
         assert.equal(isWeekday('sunday '), true);
     });
 
-    it('find out if the parameter passed in is a day of the week (ie. Not a weekend day)..', function(){
+    it('should return true because friday is actually a weekday.', function(){
         // this test will fail - can you fix it?
         assert.equal(isWeekday('friday'),true);
     });

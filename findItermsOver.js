@@ -1,11 +1,10 @@
-function findItemsOver20(item){
-  // console.log(item);
+function findItemsOver(item,amount){
+
   var num = [];
   for(var i = 0; i < item.length; i++){
   var theitem = item[i];
-    if(theitem.qty > 20){
+    if(theitem.qty > amount){
     num.push(theitem)
-      console.log(num);
     }
   }
   return num;

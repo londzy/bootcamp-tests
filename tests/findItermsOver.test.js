@@ -1,7 +1,6 @@
+describe('findItemsOver', function(){
 
-describe('findItemsOver20', function(){
-
-    it('should return all the products that have a quantity higher than 20.', function(){
+    it('The function should return products that have quantity higher than the threshold..', function(){
   var itemList = [
    {name : 'apples', qty : 10},
    {name : 'pears', qty : 37},
