@@ -1,12 +1,12 @@
 var fromWhere = function(regNum){
   switch(regNum){
-    case "CY":
+    case "CY 324":
       return "Bellville";
      break;
-    case "CJ":
+    case "CJ 123":
       return "Paarl";
      break;
-    case "CA":
+    case "CA 987":
       return "Cape Town";
      break;
     default :
@@ -15,7 +15,7 @@ var fromWhere = function(regNum){
          }
 };
 
-assert.equal(fromWhere("CY"),"Bellville");
-assert.equal(fromWhere("CJ"),"Paarl");
-assert.equal(fromWhere("CA"),"Cape Town");
-assert.equal(fromWhere("NUZ"),"Some other place!");
+assert.equal(fromWhere("CY 324"),"Bellville");
+assert.equal(fromWhere("CJ 123"),"Paarl");
+assert.equal(fromWhere("CA 987"),"Cape Town");
+assert.equal(fromWhere("NUZ 476"),"Some other place!");
