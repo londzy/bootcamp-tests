@@ -1,4 +1,10 @@
-var isWeekday = function(day){
-  var weekday =! day.startsWith('S')
-  return weekday;
-};
+function isWeekday(dayName){
+  var isWeekday=  dayName.startsWith("S");
+
+   if(isWeekday= dayName.startsWith("S")){
+    return false;
+  }
+ else{
+   return true;
+     }
+}

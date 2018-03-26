@@ -25,4 +25,17 @@ describe('mostProfitableDepartment', function(){
         //assert.deepEqual(mostProfitableDepartment(salesData),[outdoor]);
     });
 
+
+
+    it('should return "carpentry" as it is the most profitable department.', function(){
+
+        assert.equal("carpentry", mostProfitableDepartment([{department : 'hardware', sales : 7005, day : 'Friday'},
+        {department : 'outdoor', sales : 12006, day : 'Friday'},
+        {department : 'carpentry', sales : 16109, day : 'Friday'}],'carpentry'));
+        //assert.deepEqual(mostProfitableDepartment(salesData),[outdoor]);
+    });
+
+
+
+
 });
